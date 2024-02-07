@@ -1,0 +1,261 @@
+.div-centrado {
+    width: 100%; /* Ajustar el ancho del div al 100% del contenedor padre */
+    max-width: 600px; /* Ancho máximo del div */
+    margin: 35mm auto; /* Centrar horizontalmente */
+    padding-left: 45px;
+    overflow: hidden; /* Evitar que el contenido se desborde */
+    
+}
+
+.image-container {
+    width: 100%; /* Ajustar el ancho del contenedor de la imagen al 100% del contenedor padre */
+    max-width: 600px; /* Ancho máximo del contenedor de la imagen */
+    padding-right: 30px;
+    margin-top: 35px; /* Espacio superior para separar del texto */
+}
+
+.image {
+    width: 100%; /* Ajustar el ancho de la imagen al 100% del contenedor */
+}
+
+@media (min-width: 768px) {
+    .div-centrado {
+        float: left;
+        width: 80%; /* Dividir en dos columnas en pantallas más grandes */
+    }
+
+    .image-container {
+        float: right;
+        width: 30%; /* Dividir en dos columnas en pantallas más grandes */
+        margin-top: 0; /* Eliminar el margen superior en pantallas más grandes */
+    }
+}
+#body {
+    background-color: #000000; /* Código de color hexadecimal */
+}
+.title{
+    color:  #974612;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title2{
+    text-align: center;
+    color:  #974612;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-custom {
+    background-color: #974612; /* Cambia el color de fondo a naranja */
+    /* Otros estilos personalizados que desees agregar */
+}
+.text{
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text2{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Utiliza la fuente Arial como primera opción y, si no está disponible, utiliza cualquier fuente sans-serif */
+}
+.navbar-brand {
+    text-align: left; /* Centrar el texto horizontalmente */
+    padding-left: 55px;
+    margin: 0 auto; /* Ajustar el margen para centrarlo verticalmente si es necesario */
+}
+.nav-item{
+    padding-left: 55px;
+}
+.full-screen-section {
+    background-color: #f0f0f0; /* Color de fondo de la nueva sección */
+    background-image: url('images/depositphotos_592534424-stock-photo-abstract-dark-orange-curved-neon.jpg'); /* URL de la imagen de fondo */
+    padding: 50px 0; /* Espaciado interno */
+    text-align: center; /* Alineación del contenido al centro */
+    clear: both; /* Limpiar flotantes */
+}
+.full-screen-section1 {
+    background-color: #f0f0f0; /* Color de fondo de la nueva sección */
+    background-image: url('images/pngtree-orange-black-background-image_887885.jpg'); /* URL de la imagen de fondo */
+    padding: 50px 0; /* Espaciado interno */
+    text-align: center; /* Alineación del contenido al centro */
+    clear: both; /* Limpiar flotantes */
+}
+.full-screen-section2 {
+    background-color: #f0f0f0; /* Color de fondo de la nueva sección */
+    background-image: url('images/dd.jpg'); /* URL de la imagen de fondo */
+    padding: 50px 0; /* Espaciado interno */
+    text-align: center; /* Alineación del contenido al centro */
+    clear: both; /* Limpiar flotantes */
+}
+.section-title{
+    color: aliceblue;
+    font-family: Monospace;
+    font-size: 18px;
+}
+.full-screen-section .content {
+    position: relative; /* Mantener el contenido relativo */
+    z-index: 1; /* Colocar el contenido sobre el fondo */
+}
+
+.full-screen-section::before {
+    content: ""; /* Pseudo-elemento para el fondo */
+    
+    background-size: cover; /* Cubrir toda el área */
+    background-position: center; /* Centrar la imagen */
+    position: absolute; /* Posición absoluta para ocupar toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Colocar detrás del contenido */
+    opacity: 0.5; /* Opacidad del fondo */
+    pointer-events: none; /* Ignorar eventos del mouse para permitir interactuar con el contenido */
+}
+
+.whatsapp-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 23px; /* Espacio entre párrafos */
+}
+
+.centered-div {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen según sea necesario */
+    background-color: #0E0E0C;
+    padding: 0 60px; /* Agrega padding horizontal */
+}
+.centered-div1 {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen según sea necesario */
+    background-color: #000000;
+    padding: 0 60px; /* Agrega padding horizontal */
+}
+.text2{
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px; /* Espacio entre párrafos */
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+}
+textarea {
+    height: 150px;
+}
+#boo{
+    background-color: #026302;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    display: block;   
+}
+#boo:hover{
+    background-color: #ff6600;
+}
+input[type="submit"] {
+    background-color: #026302;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    display: block;
+}
+input[type="submit"]:hover {
+    background-color: #ff6600;
+}
+.logos{
+        width: 34px; /* Ancho deseado */
+        height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    
+}
+h5{
+    margin-top: 30px;
+}
+
+.water-button {
+    background-color: transparent; /* Color de fondo inicial del botón */
+    border: 2px solid #026302; /* Borde del botón */
+    color: #fff; /* Color del texto */
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 56px 99px 56px ;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden; /* Para ocultar el desbordamiento del agua */
+    position: relative; /* Para que el pseudo-elemento se posicione correctamente */
+    transition: background-color 0.5s ease; /* Transición del color de fondo */
+  }
+  
+  .water-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Ancho inicial del agua */
+    height: 100%;
+    background-color: #026302; /* Color del agua */
+    z-index: -1;
+    transition: width 0.5s ease; /* Transición del ancho */
+  }
+  
+  .water-button:hover::before {
+    width: 100%; /* Ancho completo cuando se pasa el mouse sobre el botón */
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9999;
+    display: none;
+  }
+  
+  .scroll-to-top.show {
+    display: block;
+  }
+  
