@@ -8,7 +8,7 @@ function redirectToWhatsApp() {
 }
 function downloadPDF() {
     // URL del archivo PDF
-    var pdfURL = 'CV. Jafet Ulate.pdf';
+    var pdfURL = 'Curriculum JAFET.pdf';
     // Crear un elemento <a> oculto para iniciar la descarga del PDF
     var a = document.createElement('a');
     a.href = pdfURL;
