@@ -17,6 +17,17 @@ function downloadPDF() {
     a.click();
     document.body.removeChild(a);
   }
+  function downloadPDF2() {
+    // URL del archivo PDF
+    var pdfURL = 'Referencia_Jafet.pdf';
+    // Crear un elemento <a> oculto para iniciar la descarga del PDF
+    var a = document.createElement('a');
+    a.href = pdfURL;
+    a.download = 'Carta de Recomendacion Jafet.pdf'; // Nombre del archivo PDF al descargar
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
 
 // a continuación se enumeran las configuraciones predeterminadas 
 window.addEventListener('scroll', function() {
