@@ -20,6 +20,7 @@
 
 @media (min-width: 768px) {
     .div-centrado {
+        padding-top: 1 px;
         float: left;
         width: 80%; /* Dividir en dos columnas en pantallas más grandes */
     }
@@ -34,16 +35,26 @@
     background-color: #000000; /* Código de color hexadecimal */
 }
 .title{
-    color:  #974612;  
+    color:  #c8cca8;  
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title1{
+    color:  #f0f5c8;  
+    padding-bottom: 23px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#found{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
 }
 .title2{
     text-align: center;
-    color:  #974612;  
+    color:  #989b82;  
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar-custom {
-    background-color: #974612; /* Cambia el color de fondo a naranja */
+    background-color: #4a4d2f; /* Cambia el color de fondo a naranja */
     /* Otros estilos personalizados que desees agregar */
 }
 .text{
@@ -61,27 +72,28 @@
     text-align: left; /* Centrar el texto horizontalmente */
     padding-left: 55px;
     margin: 0 auto; /* Ajustar el margen para centrarlo verticalmente si es necesario */
+    padding-bottom: 12px;
 }
 .nav-item{
     padding-left: 55px;
 }
 .full-screen-section {
     background-color: #f0f0f0; /* Color de fondo de la nueva sección */
-    background-image: url('images/depositphotos_592534424-stock-photo-abstract-dark-orange-curved-neon.jpg'); /* URL de la imagen de fondo */
+    background-image: url('images/Solid\ olive\ green\ linen\ LAD20.jpg');  /* URL de la imagen de fondo */
     padding: 50px 0; /* Espaciado interno */
     text-align: center; /* Alineación del contenido al centro */
     clear: both; /* Limpiar flotantes */
 }
 .full-screen-section1 {
     background-color: #f0f0f0; /* Color de fondo de la nueva sección */
-    background-image: url('images/pngtree-orange-black-background-image_887885.jpg'); /* URL de la imagen de fondo */
+    background-image: url('images/desktop-wallpaper-4-olive-green-olive-green.jpg'); /* URL de la imagen de fondo */
     padding: 50px 0; /* Espaciado interno */
     text-align: center; /* Alineación del contenido al centro */
     clear: both; /* Limpiar flotantes */
 }
 .full-screen-section2 {
     background-color: #f0f0f0; /* Color de fondo de la nueva sección */
-    background-image: url('images/dd.jpg'); /* URL de la imagen de fondo */
+    background-image: url('images/Solid\ olive\ green\ linen\ LAD20.jpg'); /* URL de la imagen de fondo */
     padding: 50px 0; /* Espaciado interno */
     text-align: center; /* Alineación del contenido al centro */
     clear: both; /* Limpiar flotantes */
@@ -167,7 +179,8 @@ textarea {
     height: 150px;
 }
 #boo{
-    background-color: #026302;
+    
+    background-color: #2f583b;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -179,7 +192,17 @@ textarea {
     display: block;   
 }
 #boo:hover{
-    background-color: #ff6600;
+    background-color: #7c8f5d;
+}
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #0f0f0e00; /* Cambio de color de fondo al pasar el mouse */
+    color: #c8cca877; /* Cambio de color del texto al pasar el mouse */
+    text-decoration: wavy; /* Subrayado del texto al pasar el mouse */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efecto de sombra al pasar el mouse */
 }
 input[type="submit"] {
     background-color: #026302;
@@ -194,7 +217,7 @@ input[type="submit"] {
     display: block;
 }
 input[type="submit"]:hover {
-    background-color: #ff6600;
+    background-color: #7267c4;
 }
 .logos{
         width: 34px; /* Ancho deseado */
@@ -207,7 +230,7 @@ h5{
 
 .water-button {
     background-color: transparent; /* Color de fondo inicial del botón */
-    border: 2px solid #026302; /* Borde del botón */
+    border: 2px solid #2f583b; /* Borde del botón */
     color: #fff; /* Color del texto */
     padding: 15px 30px;
     text-align: center;
@@ -229,7 +252,7 @@ h5{
     left: 0;
     width: 0; /* Ancho inicial del agua */
     height: 100%;
-    background-color: #026302; /* Color del agua */
+    background-color: #2f583b; /* Color del agua */
     z-index: -1;
     transition: width 0.5s ease; /* Transición del ancho */
   }
@@ -244,7 +267,7 @@ h5{
     right: 20px;
     width: 40px;
     height: 40px;
-    background-color: #007bff; /* Color de fondo */
+    background-color: #306b2e; /* Color de fondo */
     color: white; /* Color del texto */
     font-size: 24px;
     text-align: center;
@@ -258,4 +281,317 @@ h5{
   .scroll-to-top.show {
     display: block;
   }
+  .sea {
+    margin: 60px auto 0 auto;
+    overflow: hidden;
+}
+
+
+
+.sea .circle-wrapper {
+    position: relative;
+    background: linear-gradient(darken(#5a7079, 3%), darken(#e3ecf0, 12%));
+    width: 300px;
+    height: 300px;
+    margin: 10px auto 0 auto;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: 50%;
+    padding: 0 50px 0 50px;
+    border: 6px solid lighten(#396d7e, 10%);
+}
+
+.sea .submarine-wrapper {
+    height: 300px;
+    width: 300px;
+    padding: 30px 50px 30px 150px;
+    margin: 0 auto 0 auto;
+    animation: diving 3s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
+}
+
+.sea .submarine-wrapper .submarine-body {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: 50px;
+    left: 25px;
+    background-color: #3e5e48;
+    border-radius: 40px;
+    background: linear-gradient(#feffff, darken(#ffffff, 10%));
+}
+
+.sea .submarine-wrapper .submarine-body .light {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 40px 150px 40px;
+    border-color: transparent transparent lighten(#002e41, 5%) #d3d8da;
+    transform: rotate(-50deg);
+    top: 40px;
+    left: 99%;
+}
+
+.sea .submarine-wrapper .submarine-body .light:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 13px;
+    border-radius: 5px;
+    background-color: darken(#dceaee, 5%);
+    margin-left: -10px;
+}
+
+.sea .submarine-wrapper .submarine-body .window {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    margin-top: 23px;
+    right: 18px;
+    background: linear-gradient(darken(#dddddd, 13%), darken(#8da4ad, 18%));
+    border-radius: 50%;
+    border: 3px solid #a2e799;
+}
+
+.sea .submarine-wrapper .submarine-body .window:after {
+    content: "";
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 0.8;
+    border-top: 3px solid rgb(249, 255, 249);
+    transform: rotate(-45deg);
+}
+
+.sea .submarine-wrapper .submarine-body .engine {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 32px;
+    left: 53px;
+    background-color: darken(#74b164, 10%);
+    border-radius: 50%;
+    border: 5px solid #7cb187;
+}
+
+.sea .submarine-wrapper .submarine-body .engine:after,
+.sea .submarine-wrapper .submarine-body .engine:before {
+    position: absolute;
+    content: "";
+    border-radius: 2px;
+    background-color: white;
+    animation: spin 900ms linear infinite;
+    opacity: 0.8;
+}
+
+.sea .submarine-wrapper .submarine-body .engine:after {
+    top: 8px;
+    width: 20px;
+    height: 4px;
+}
+
+.sea .submarine-wrapper .submarine-body .engine:before {
+    left: 8px;
+    width: 4px;
+    height: 20px;
+}
+
+.sea .submarine-wrapper .helix {
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    margin-top: 55px;
+    left: 0;
+    background-color: #a2cc98;
+    border-radius: 7px;
+    background: linear-gradient(#b4d18e, darken(#adc042, 10%));
+}
+
+.sea .submarine-wrapper .helix:after {
+    content: "";
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 17px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: transparent;
+    opacity: 0.8;
+    background: linear-gradient(to bottom, #f3f3f3, #ffffff 50%, lighten(#81676b, 15%) 50%, lighten(#fffdfe, 15%));
+    background-size: 100% 20px;
+    animation: helix-movement 110ms linear infinite;
+}
+
+.sea .submarine-wrapper .hat {
+    width: 65px;
+    height: 25px;
+    position: absolute;
+    margin-top: 26px;
+    left: 70px;
+    background-color: #62774a;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(#d49ba5, darken(#c5b0b0, 3%));
+}
+
+.sea .submarine-wrapper .hat .periscope {
+    position: absolute;
+    width: 7px;
+    height: 20px;
+    background-color: #6b9461;
+    margin-top: -27px;
+    margin-left: 32px;
+    border-radius: 5px 5px 0 0;
+}
+
+.sea .submarine-wrapper .hat .periscope:after,
+.sea .submarine-wrapper .hat .periscope:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: #284e2d;
+}
+
+
+
+.sea .submarine-wrapper .hat .leds-wrapper .leds {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 7px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(218, 218, 218);
+    animation: leds-off 500ms linear infinite;
+}
+
+.sea .submarine-wrapper .hat .leds-wrapper .leds:after,
+.sea .submarine-wrapper .hat .leds-wrapper .leds:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.sea .submarine-wrapper .hat .leds-wrapper .leds:after {
+    margin-top: 0px;
+    margin-left: 17px;
+}
+
+.sea .submarine-wrapper .hat .leds-wrapper .leds:before {
+    margin-top: 0px;
+    margin-left: 34px;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes leds-off {
+    100% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes helix-movement {
+    100% {
+        background: linear-gradient(to bottom, lighten(#0f0f0f, 15%) 50%, lighten(#b89fa4, 15%), #969293, #383233 50%);
+        background-size: 100% 20px;
+    }
+}
+
+@keyframes diving {
+    0% {
+        margin-top: 5px;
+    }
+    50% {
+        margin-top: 15px;
+    }
+    100% {
+        margin-top: 5px;
+    }
+}
+
+@keyframes diving-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes bubble1-h-movement {
+    0% {
+        margin-left: 80%;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}
+
+@keyframes bubble2-h-movement {
+    0% {
+        margin-left: 65%;
+    }
+    100% {
+        margin-left: -5%;
+    }
+}
+
+@keyframes bubble1-v-movement {
+    0% {
+        margin-top: 115px;
+    }
+    100% {
+        margin-top: 160px;
+    }
+}
+
+@keyframes bubble2-v-movement {
+    0% {
+        margin-top: 115px;
+    }
+    100% {
+        margin-top: 90px;
+    }
+}
+
+@keyframes bubble-scale-movement {
+    0% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes light-movement {
+    0% {
+        transform: rotate(-40deg);
+    }
+    50% {
+        transform: rotate(-70deg);
+    }
+    100% {
+        transform: rotate(-40deg);
+    }
+}
+
   
+

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jafet Presentation Page</title>
+    <title>Jafet Ulate </title>
+    <link rel="icon" type="image/png" href="images/icons8-avatar-96.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
@@ -27,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto"> <!-- Alinea a la derecha -->
                         <li class="nav-item">
-                            <a class="nav-link active" data-aos="zoom-in-down" data-aos-duration="2000" aria-current="page" href="#">Home</a>
+                            <a class="nav-link " data-aos="zoom-in-down" data-aos-duration="2000" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-aos="zoom-in-down" data-aos-duration="2000" href="#about">About me</a>
@@ -46,7 +47,7 @@
 
     <main>
         <div class="div-centrado" data-aos="zoom-in-down" data-aos-duration="3000">
-            <h2 class="title">Hi, I'm Jafet Ulate</h2>
+            <h2 class="title1">Hi, I'm Jafet Ulate</h2>
             <h3 class="title">Software developer</h3>
             <p data-aos="fade-up" class="text">As a passionate young individual, my academic background in technology
                 has provided me with a strong foundation. I am eager to apply my skills and 
@@ -56,9 +57,26 @@
             <button class="water-button" onclick="window.location.href='#contact'">Contact me</button>
         </div>
 
-        <div class="image-container" data-aos="fade-left" data-aos-duration="7000">
-            <img src="images/fa.jpeg" alt="logo Jafet" class="image">
-        </div>
+        <div  data-aos="fade-left" data-aos-duration="7000">
+            <div class="sea">
+                <div class="circle-wrapper">
+                    <div class="bubble"></div>
+                    <div class="submarine-wrapper">
+                        <div class="submarine-body">
+                            <div class="window"></div>
+                            <div class="engine"></div>
+                           
+                        </div>
+                        <div class="helix"></div>
+                        <div class="hat">
+                          <div class="leds-wrapper">
+                              <div class="periscope"></div>
+                              <div class="leds"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+         
     </main>
 
     <section class="full-screen-section">
@@ -88,21 +106,21 @@
 
     <!-- Div debajo de la sección -->
     <div id="proyect" class="centered-div1" data-aos="fade-up">
-        <h2 class="title">Projects</h2>
-        <h3 data-aos="fade-up" >Dominoes</h3>
+        <h2 class="title1">Projects</h2>
+        <h3 data-aos="fade-up"  class="title" >Dominoes</h3>
         <p data-aos="fade-up" class="text2">  I created a board game on a C++ console, the game was "Dominoes", which consisted of distributing 7
             chips per player, which each player had to select and place on the table, depending on
             whether they considered the faces of both chips,
             each chip It had two sides and the game validated if either side worked, the first to run out of chips won.</p>
         <button class="water-button" onclick="window.location.href='https://github.com/jafetulate12/Domino_BlackJack'">Repository</button>
             
-        <h3 data-aos="fade-up" >Blackjack</h3>
+        <h3 data-aos="fade-up" class="title" >Blackjack</h3>
         <p data-aos="fade-up" class="text2">I created a board game on a C++ console, the game was "Blackjack", which consisted of dealing 2 cards per player,
             the player could draw one or two cards per turn, if they went over 21 they lost 
             the game, the one who won It reached 21 or closer.</p>
             <button class="water-button" onclick="window.location.href='https://github.com/jafetulate12/Domino_BlackJack'">Repository</button>
 
-        <h3 data-aos="fade-up">Point of sale</h3>
+        <h3 data-aos="fade-up" class="title" >Point of sale</h3>
         <p  data-aos="fade-up" class="text2">I Using C# I created a billing system for a mechanical workshop where 
             inventory control of parts was kept, and records for both purchase invoices and sales invoices,
             the system was automated, which
@@ -110,14 +128,14 @@
             the system was desktop and also web, It should be noted that this project had a connection to the database created by me on SQL Server.</p>
             <button class="water-button" onclick="window.location.href='https://github.com/jafetulate12/Sistema_Facturacion'">Repository</button>
 
-        <h3 data-aos="fade-up">Database for University</h3>
+        <h3 data-aos="fade-up" class="title" >Database for University</h3>
         <p data-aos="fade-up"class="text2">In this project I created a database for a university, in which I developed extensive knowledge in databases, 
             using transac and programming functions in the database, the system enrolled first-time students 
             and frequent students, which made the necessary validations for this to happen, such as reviewing schedule clashes,
             free laboratories for classes, validating if there are teachers, and also opening and creating new courses.</p>
             <button class="water-button" onclick="window.location.href='https://github.com/jafetulate12/BaseDeDatos-Clinica-SqlServer'">Repository</button>
 
-        <h3 data-aos="fade-up">Private Clinic Appointment System</h3>
+        <h3 data-aos="fade-up" class="title" >Private Clinic Appointment System</h3>
         <p data-aos="fade-up" class="text2">In this project I created a system to make health appointments in a private clinic,
             which had to check if there were doctors, the prices of the appointments and the schedules, a version was created
             for use by clinic employees on desktop,
@@ -129,13 +147,13 @@
     <div class="centered-div2" data-aos="flip-left">
         <section class="full-screen-section2">
             <div class="content">
-                
+                <h2 id="found" data-aos="fade-up" class="section-title">Contact</h2>
+             
             </div>
         </section>
     </div>
 
     <div id="contact" class="container" data-aos="fade-up">
-        <h2 class="title2">Contact</h2>
         <form action="https://formsubmit.co/ulatealvarezjafeth@gmail.com" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -166,7 +184,7 @@
                     <h5>Socials Networks</h5>
                     <ul class="list-unstyled">
                         <li ><a href="#"><box-icon class="logos" name='home-smile'></box-icon></a></li>
-                        <li> <a href="https://www.linkedin.com/in/jafeth-ulate-alvarez-19429a290/"><box-icon class="logos" type='logo' name='linkedin-square'></box-icon></a> </li>
+                        <li> <a href="https://www.linkedin.com/in/jafet-ulate-19429a290/"><box-icon class="logos" type='logo' name='linkedin-square'></box-icon></a> </li>
                         <li><a href="#" onclick="redirectToWhatsApp()"><box-icon class="logos" type='logo' name='whatsapp-square'></box-icon></a></li>
                         <li><a href="https://www.facebook.com/jafeth.ulate.7?locale=es_LA"><box-icon class="logos" name='facebook-circle' type='logo' ></box-icon></a></li>
                     </ul>
